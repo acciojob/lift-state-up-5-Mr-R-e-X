@@ -4,7 +4,7 @@ const LoginForm = ({ isLoggedIn, setLoggedIn }) => {
   return (
     <>
       {isLoggedIn ? (
-        <h1 className="logged-in-heading">You are logged in!</h1>
+        <p className="logged-in-heading">You are logged in!</p>
       ) : (
         <div className="form-container">
           <form className="login-form">
